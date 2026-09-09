@@ -36,3 +36,454 @@
         color: rgb(39, 40, 34);
     }
 }
+/* Recruiter-friendly professional experience */
+
+.experience-container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.experience-heading {
+  max-width: 760px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.experience-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a78bfa;
+}
+
+.experience-heading h1 {
+  margin-bottom: 14px;
+}
+
+.experience-heading p {
+  margin: 0;
+  line-height: 1.7;
+  opacity: 0.78;
+}
+
+.vertical-timeline-element-content {
+  border: 1px solid rgba(139, 92, 246, 0.24);
+  border-radius: 18px !important;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22) !important;
+}
+
+.vertical-timeline-element-title {
+  margin: 0 0 5px;
+  font-size: 1.35rem;
+  font-weight: 750;
+}
+
+.vertical-timeline-element-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #a78bfa;
+}
+
+.experience-status {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  border: 1px solid rgba(167, 139, 250, 0.45);
+  border-radius: 999px;
+  background: rgba(124, 58, 237, 0.12);
+  color: #c4b5fd;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.experience-summary {
+  margin: 20px 0 !important;
+  line-height: 1.7 !important;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.experience-highlights {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.experience-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.experience-highlight > svg {
+  flex-shrink: 0;
+  margin-top: 4px;
+  color: #a78bfa;
+}
+
+.experience-highlight div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.experience-highlight strong {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.experience-highlight span {
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.experience-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.experience-tech span {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(124, 58, 237, 0.12);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  color: #ddd6fe;
+  font-size: 0.76rem;
+  font-weight: 650;
+}
+
+.vertical-timeline-element-date {
+  font-weight: 700 !important;
+}
+
+/* Light mode */
+
+.light-mode .vertical-timeline-element-content {
+  background: white !important;
+  color: #0d1116 !important;
+}
+
+.light-mode .experience-summary {
+  color: rgba(13, 17, 22, 0.75);
+}
+
+.light-mode .experience-highlight {
+  background: rgba(13, 17, 22, 0.025);
+  border-color: rgba(13, 17, 22, 0.09);
+}
+
+.light-mode .experience-highlight strong {
+  color: #0d1116;
+}
+
+.light-mode .experience-highlight span {
+  color: rgba(13, 17, 22, 0.7);
+}
+
+.light-mode .experience-tech span {
+  color: #5b21b6;
+}
+
+@media screen and (max-width: 768px) {
+  .experience-heading {
+    text-align: left;
+  }
+
+  .experience-container {
+    padding-top: 25px;
+  }
+
+  .experience-highlight {
+    padding: 12px;
+  }
+}
+
+/* Experience dark-mode readability fix */
+
+#history .vertical-timeline-element-content {
+  background: #171b22 !important;
+  color: #ffffff !important;
+}
+
+#history .vertical-timeline-element-content h3,
+#history .vertical-timeline-element-content .vertical-timeline-element-title {
+  color: #ffffff !important;
+}
+
+#history .vertical-timeline-element-content h4,
+#history .vertical-timeline-element-content .vertical-timeline-element-subtitle {
+  color: #a78bfa !important;
+}
+
+#history .vertical-timeline-element-content .experience-summary {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+#history .vertical-timeline-element-content p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+#history .experience-highlight strong {
+  color: #ffffff !important;
+}
+
+#history .experience-highlight span {
+  color: rgba(255, 255, 255, 0.76) !important;
+}
+
+#history .experience-status {
+  color: #c4b5fd !important;
+}
+
+#history .vertical-timeline-element-date {
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+/* Preserve readable light mode */
+
+.light-mode #history .vertical-timeline-element-content {
+  background: #ffffff !important;
+  color: #0d1116 !important;
+}
+
+.light-mode #history .vertical-timeline-element-content h3,
+.light-mode #history .vertical-timeline-element-content .vertical-timeline-element-title {
+  color: #0d1116 !important;
+}
+
+.light-mode #history .vertical-timeline-element-content h4,
+.light-mode #history .vertical-timeline-element-content .vertical-timeline-element-subtitle {
+  color: #6d28d9 !important;
+}
+
+.light-mode #history .vertical-timeline-element-content .experience-summary,
+.light-mode #history .vertical-timeline-element-content p {
+  color: rgba(13, 17, 22, 0.75) !important;
+}
+
+.light-mode #history .experience-highlight strong {
+  color: #0d1116 !important;
+}
+
+.light-mode #history .experience-highlight span {
+  color: rgba(13, 17, 22, 0.72) !important;
+}
+
+.light-mode #history .vertical-timeline-element-date {
+  color: #0d1116 !important;
+}
+
+/* Wider professional experience cards */
+
+@media only screen and (min-width: 1170px) {
+  #history .vertical-timeline {
+    width: 94%;
+    max-width: 1280px;
+  }
+
+  #history .vertical-timeline-element-content {
+    width: 44%;
+    padding: 26px;
+  }
+
+  #history .vertical-timeline-element:nth-child(odd)
+    .vertical-timeline-element-content {
+    margin-left: 0;
+  }
+
+  #history .vertical-timeline-element:nth-child(even)
+    .vertical-timeline-element-content {
+    margin-right: 0;
+  }
+}
+
+/* Align Professional Experience heading with other sections */
+
+#history .experience-heading {
+  max-width: 1180px;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+#history .experience-heading h1 {
+  margin-left: 0;
+}
+
+#history .experience-heading p {
+  max-width: 760px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Match Professional Experience heading with Expertise alignment */
+
+#history .experience-heading {
+  max-width: 1180px;
+  margin: 0 auto 40px;
+  padding-left: 0;
+  text-align: left;
+}
+
+@media screen and (min-width: 769px) {
+  #history .experience-heading {
+    width: calc(100% - 120px);
+    max-width: none;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #history .experience-heading {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* Interactive Professional Experience technologies */
+
+#history .experience-tech-button {
+  appearance: none;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(124, 58, 237, 0.12);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  color: #ddd6fe;
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+#history .experience-tech-button:hover {
+  transform: translateY(-2px);
+  background: rgba(124, 58, 237, 0.24);
+  border-color: rgba(167, 139, 250, 0.7);
+  box-shadow: 0 5px 14px rgba(124, 58, 237, 0.18);
+}
+
+#history .experience-tech-button:focus-visible {
+  outline: 2px solid #a78bfa;
+  outline-offset: 2px;
+}
+
+
+/* What I Can Build modal */
+
+.experience-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.experience-modal {
+  position: relative;
+  width: min(570px, 100%);
+  padding: 34px;
+  border-radius: 18px;
+  background: #171b22;
+  border: 1px solid rgba(139, 92, 246, 0.55);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.55);
+}
+
+.experience-modal-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  color: #a78bfa;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.experience-modal h2 {
+  margin: 0 45px 16px 0;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.experience-modal p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.86);
+  line-height: 1.75;
+}
+
+.experience-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  cursor: pointer;
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+.experience-modal-close:hover {
+  background: rgba(139, 92, 246, 0.35);
+}
+
+
+/* Light mode */
+
+.light-mode #history .experience-tech-button {
+  background: rgba(124, 58, 237, 0.08);
+  border-color: rgba(109, 40, 217, 0.25);
+  color: #5b21b6;
+}
+
+.light-mode .experience-modal {
+  background: #ffffff;
+}
+
+.light-mode .experience-modal h2 {
+  color: #0d1116;
+}
+
+.light-mode .experience-modal p {
+  color: rgba(13, 17, 22, 0.82);
+}
+
+.light-mode .experience-modal-close {
+  background: rgba(13, 17, 22, 0.08);
+  color: #0d1116;
+}
+
+@media screen and (max-width: 600px) {
+  .experience-modal {
+    padding: 28px 22px 24px;
+  }
+
+  .experience-modal h2 {
+    font-size: 1.65rem;
+  }
+}

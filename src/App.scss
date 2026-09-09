@@ -1,0 +1,22 @@
+
+/* Mobile fixed-navbar section clearance */
+
+#expertise,
+#history,
+#projects,
+#contact {
+  scroll-margin-top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  #expertise,
+  #history,
+  #projects,
+  #contact {
+    scroll-margin-top: 85px;
+  }
+
+  #history .experience-heading {
+    padding-top: 35px;
+  }
+}
