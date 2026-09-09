@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/meghana-portfolio/static/css/main.6b4f2c20.css",
+    "main.js": "/meghana-portfolio/static/js/main.553432c3.js",
+    "static/js/453.1fe72c1c.chunk.js": "/meghana-portfolio/static/js/453.1fe72c1c.chunk.js",
+    "static/media/meghana-profile.png": "/meghana-portfolio/static/media/meghana-profile.752d3a56a9218fc0f5fa.png",
+    "static/media/bg-light.png": "/meghana-portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/meghana-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ci.png": "/meghana-portfolio/static/media/ci.360a76daf181b8aabc16.png",
+    "static/media/dashboard.png": "/meghana-portfolio/static/media/dashboard.6d9cf18e030d0697f5a9.png",
+    "static/media/lifecycle.png": "/meghana-portfolio/static/media/lifecycle.b304abd5a31f07724dfb.png",
+    "index.html": "/meghana-portfolio/index.html",
+    "main.6b4f2c20.css.map": "/meghana-portfolio/static/css/main.6b4f2c20.css.map",
+    "main.553432c3.js.map": "/meghana-portfolio/static/js/main.553432c3.js.map",
+    "453.1fe72c1c.chunk.js.map": "/meghana-portfolio/static/js/453.1fe72c1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b4f2c20.css",
+    "static/js/main.553432c3.js"
+  ]
+}
